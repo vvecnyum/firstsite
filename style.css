@@ -1,0 +1,293 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header,
+.info,
+.learning,
+.feedback,
+footer {
+  padding: 40px 0;
+}
+
+header {
+  background-color: #6451d5;
+}
+
+.info,
+.feedback {
+  background-color: #efefef;
+}
+
+footer{
+  background-color: #2a2546;
+}
+
+.header-top,
+.header-top img,
+.header-top .nav {
+  /* border: 2px solid yellow; */
+}
+
+.header-top .nav {
+  display: inline-block;
+  list-style: none;
+  vertical-align: 40px;
+  margin-left: 130px;
+}
+
+.header-top .nav li {
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin-right: 40px;
+}
+.header-top .nav li:last-child {
+  margin-right: 0;
+}
+
+.header-top .nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-bottom {
+  /* border: 2px solid white; */
+  padding-top: 70px;
+}
+
+.header-bottom .promo {
+  display: inline-block;
+  /* border: 2px solid yellow; */
+  width: 340px;
+  vertical-align: top;
+}
+.header-bottom img {
+  /* border: 2px solid yellow; */
+}
+.header-bottom .promo h1 {
+  color: #fff;
+}
+
+.header-bottom .promo p {
+  margin: 40px 0;
+  /* color: red; */
+  /* color: rgb(255, 25, 37); */
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 28px;
+  /* 0-1  */
+  /* 0-255 */
+  /* hex */
+  /* 0-9 A-F */
+  /* color: #f87655; */
+}
+.header-bottom a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #382d78;
+  font-weight: bold;
+  padding: 20px 70px;
+}
+.header-bottom img {
+  margin-left: 100px;
+  height: 330px;
+}
+
+.info .item {
+
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.info .item:last-child {
+  margin-right: 0;
+}
+
+.info .item h4 {
+  margin: 20px 0;
+}
+
+.info .item p {
+  /* color: rgba(0, 0, 0, 0.5); */
+  opacity: 0.5;
+}
+
+.learning table {
+  margin-top: 30px;
+  border: 1px solid black;
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: red; */
+  /* border-style: double;
+  border-style: dashed;
+  border-style: dotted;
+  border-style: groove;
+  border-style: inset;
+  border-style: outset;
+  border-style: ridge; */
+  border-collapse: collapse;
+}
+
+.learning table tr:first-child {
+  background-color: #efefef;
+}
+.learning table td {
+  border: 1px solid black;
+  padding: 15px 25px;
+}
+.learning table td:first-child {
+  width: 25%;
+}
+.learning table td:nth-child(2) {
+  width: 20%;
+}
+
+.learning table tr:nth-child(2) td:nth-child(1),
+.learning table tr:nth-child(2) td:nth-child(2),
+.learning table tr:nth-child(3) td:nth-child(1),
+.learning table tr:nth-child(3) td:nth-child(2) {
+  font-weight: bold;
+}
+
+.feedback form {
+  display: inline-block;
+  border: none;
+}
+
+.feedback .text {
+  display: inline-block;
+
+}
+.feedback form table td {
+  /* border: 1px solid black; */
+}
+.feedback form table tr td:first-child {
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.feedback form table tr td:nth-child(2) input[type="text"],
+.feedback form table tr td:nth-child(2) input[type="submit"],
+.feedback form table tr td:nth-child(2) textarea {
+  width: 380px;
+}
+
+.feedback form input[type="text"],
+.feedback form textarea {
+  padding: 10px 15px;
+  outline: none;
+}
+
+.feedback form textarea {
+  resize: none;
+  padding-bottom: 30px;
+}
+
+.feedback form tr td:nth-child(2) {
+  /* border: 1px solid red; */
+  padding: 12px;
+}
+.feedback h1 {
+  margin-bottom: 20px;
+}
+#man + label {
+  margin-right: 40px;
+}
+
+#man,
+#woman {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.feedback form tr:nth-child(3) td:nth-child(1) {
+  vertical-align: 0px;
+  padding-top: 20px;
+}
+
+.feedback form input[type="submit"] {
+  width: 410px !important;
+  padding: 20px;
+  background-color: #382d78;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.feedback .text
+{
+  width: 300px;
+  margin-left: 60px;
+  vertical-align: top;
+
+}
+.feedback .text p
+{
+   margin: 20px 0;
+   opacity: 0.8;
+}
+.feedback .text p b
+{
+  opacity: 1;
+  color: black;
+}
+
+footer .container > div
+{
+
+  display: inline-block;
+  vertical-align: top;
+}
+footer .address
+{
+  width: 220px;
+  margin-right: 80px;
+}
+footer .address p
+{
+  color: #fff;
+  margin-top: 70px;
+  
+}
+footer .menu ul
+{
+list-style: none;
+display: inline-block;
+margin-right: 50px;
+
+}
+footer .menu ul:last-child
+{
+  margin-right: 0;
+}
+footer .menu ul li b
+{
+  color: #fff;
+}
+footer .menu ul li a
+{
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+footer .menu li
+{
+  margin-bottom:29px;
+}
+
+
+
